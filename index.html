@@ -12,17 +12,17 @@
 <body>
     <form action="./dynamics/index.php" method="POST">
         <fieldset>
-            <h2>Creando un tablerito</h2>
+            <legend><strong></strong>Creando un tablerito</strong></legend>
 
             <label>
                 ¿De qué tamaño quieres que sea el tablero?
-                <input name="size" type="text">
+                <input name="size" type="number" min="1" max="15">
             </label>
 
             <br>
             <br>
 
-            <input type="submit" value="Enbiar info">
+            <input type="submit" value="Enviar info">
         </fieldset>
     </form>
 </body>
